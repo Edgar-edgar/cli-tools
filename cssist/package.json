@@ -1,0 +1,29 @@
+{
+  "name": "cssist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cssist.js",
+  "bin": {
+    "cssist": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "preferGlobal": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "jsdom": "^16.2.2",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  }
+}
